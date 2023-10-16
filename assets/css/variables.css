@@ -1,0 +1,47 @@
+:root {
+
+    /* VIBRANT BLUE-ROSE PALETTE */
+--prim-dark-blue: #00394dff;
+--prim-dark-purple: #553e53ff;
+--prim-accent-pink: #a23562ff;
+--prim-rose: #a8536aff;
+--prim-blue: #007c7eff;
+--prim-white: #eefbfaff;
+
+--sec-accent-pink: #a30054ff;
+--sec-dark-blue: #094561ff;
+--sec-blue: #1c6473ff;
+--sec-baby-blue: #03a6afff;
+--sec-white: #f8f1f3ff;
+--sec-accent-blue: #21998fff;
+
+    
+    /* CSS HEX */
+--indigo-dye: #094561ff;
+--murrey: #a30054ff;
+--caribbean-current: #1c6473ff;
+--caribbean-current-2: #12687dff;
+--persian-green: #21998fff;
+--prussian-blue: #00394dff;
+--quinacridone-magenta: #a23562ff;
+--china-rose: #a8536aff;
+--english-violet: #553e53ff;
+--teal: #007c7eff;
+--azure-web: #eefbfaff;
+--snow: #f8f1f3ff;
+
+/* CSS HSL */
+--indigo-dye: hsla(199, 83%, 21%, 1);
+--murrey: hsla(329, 100%, 32%, 1);
+--caribbean-current: hsla(190, 61%, 28%, 1);
+--caribbean-current-2: hsla(192, 75%, 28%, 1);
+--persian-green: hsla(175, 65%, 36%, 1);
+--prussian-blue: hsla(196, 100%, 15%, 1);
+--quinacridone-magenta: hsla(335, 51%, 42%, 1);
+--china-rose: hsla(344, 34%, 49%, 1);
+--english-violet: hsla(305, 16%, 29%, 1);
+--teal: hsla(181, 100%, 25%, 1);
+--azure-web: hsla(175, 62%, 96%, 1);
+--snow: hsla(343, 33%, 96%, 1);
+--verdigris: hsla(183, 97%, 35%, 1);
+}
