@@ -1,0 +1,112 @@
+@import url('font.css');
+@import url('../assets/css/fonts.css');
+
+:root {
+  /* COLOR VARIABLES */
+--dkest-blue: rgb(1, 23, 31);
+--ltest-warm-white: #f8f1f3ff;
+--ltest-cold-white: rgb(215, 215, 215);
+--ltest-neutral-white: #eefbfaff;
+--md-blue: #094561ff;
+--md-lt-blue: #1c6473ff;
+--lt-blue: #21998fff;
+--lt-cyan: rgb(0, 180, 135);
+--dk-lila: #553e53ff;
+--md-pink: #a23562ff;
+--lt-pink: #a8536aff;
+  /* FONTS VARIABLES */
+--text-sans-s1: 'Barlow', sans-serif;
+--text-sans-s2: 'Lato', sans-serif;
+--text-sans-s3: "Ysabeau Infant", sans-serif;
+--text-serif1: 'Amarante', serif;
+--text-serif2: 'Amita', serif;
+--text-serif3: 'Buda', serif;
+--text-serif4: 'Cormorant Garamond', serif;
+--text-serif5: 'Bodoni Moda', serif;
+--text-serif6: 'Hina Mincho', serif;
+--text-serif7: 'Josefin Slab', serif;
+--text-serif8: 'Tapestry', serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1rem;
+  background: var(--ltest-neutral-white);
+}
+ol, ul, dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Buda', serif;
+  font-weight: 500;
+}
+a, a:link{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--lt-cyan);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--ltest-warm-white);
+}
+
+a:hover {
+  color: var(--dk-lila);
+  
+}
+a:active {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+
+.text-sans-s1 {
+  font-family: var(--text-sans-s1);
+}
+
+.text-sans-s2 {
+  font-family: var(--text-sans-s2);
+}
+
+.text-serif1 {
+  font-family: var(--text-serif1);
+}
+.text-serif2 {
+  font-family: var(--text-serif2);
+}
+.text-serif3 {
+  font-family: var(--text-serif3);
+}
+.text-serif4 {
+  font-family: var(--text-serif4);
+}
+.text-serif5 {
+  font-family: var(--text-serif5);
+}
+.text-serif6 {
+  font-family: var(--text-serif6);
+}
+.text-serif7 {
+  font-family: var(--text-serif7);
+}
+.text-serif8 {
+  font-family: var(--text-serif8);
+}
